@@ -1,0 +1,136 @@
+body{
+    background-image: url(./img/dark-death-japan-kanji-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "main";
+    src: url("../fonts/main.otf") format("truetype");
+  }
+
+#osn{
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    top: 200px;
+    left: 725px;
+    box-shadow: 0px 0px 28px 13px rgba(235,111,235,1);
+    backdrop-filter: blur(10px);
+    background: rgba(221, 0, 255, 0.2);
+}
+
+#led{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 1px rgba(14,158,235,1);
+}
+
+#del{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    background-color: red;
+    color: white;
+    top: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 0px 0px 10px 1px rgb(252, 35, 35);
+}
+
+.first{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#delen{
+    background-color: orange;
+    color: white;
+    box-shadow: 0px 0px 15px 1px rgba(235,191,14,1);
+}
+
+.second{
+    position: relative;
+    top:10px;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+#ymn{
+    background-color: orange;
+    color: white;
+    box-shadow: 0px 0px 15px 1px rgba(235,191,14,1);
+}
+
+.therd{
+    position: relative;
+    top:20px;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+#min{
+    background-color: orange;
+    color: white;
+    box-shadow: 0px 0px 15px 1px rgba(235,191,14,1);
+}
+
+.fours{
+    position: relative;
+    top:30px;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+#plus{
+    background-color: orange;
+    color: white;
+    box-shadow: 0px 0px 15px 1px rgba(235,191,14,1);
+}
+
+#rav{
+    background-color: rgb(0, 204, 255);
+    color: white;
+    box-shadow: 0px 0px 15px 1px rgba(14,202,235,1);
+}
+
+#Project{
+    position: absolute;
+    top: 900px;
+    left: 1580px;
+    font-size: 20px;
+    width: 400px;
+    height: 100px;
+    color: #7d7d7d;
+    font-family: main;
+    user-select: none;
+}
